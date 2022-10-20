@@ -14,7 +14,7 @@ node {
       catch(e)
       {
         echo 'something is not right'
-        echo e.toString()
+        echo e.toString();
         currentBuild.result = "FAILURE"
       }
       finally
