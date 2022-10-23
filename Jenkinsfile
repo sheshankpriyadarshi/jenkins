@@ -10,7 +10,7 @@ node {
         bat 'dotnet --version' 
         bat 'dotnet build ConsoleApp1'
         echo 'Building new feature...'
-        releasenotes()
+        releasenotes(changes:"false")
       }
       catch(e)
       {
